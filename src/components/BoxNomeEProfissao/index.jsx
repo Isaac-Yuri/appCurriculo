@@ -1,13 +1,15 @@
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import { styles } from "./style";
 import Nome from "../Nome";
-import Profissao from "../Profissao";
+import TituloCinza from "../TituloCinza";
 
 export default function BoxNomeEProfissao() {
   return (
     <View style={styles.container}>
       <Nome>Isaac Yuri</Nome>
-      <Profissao>Estudante de Programação</Profissao>
+      <TituloCinza style={{ textAlign: "center" }}>
+        Estudante de programação
+      </TituloCinza>
     </View>
   );
 }

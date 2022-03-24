@@ -4,6 +4,7 @@ import { styles } from "./styles";
 import Foto from "../Foto";
 import BoxNomeEProfissao from "../BoxNomeEProfissao";
 import BoxContatos from "../BoxContatos";
+import ContainerInformacao from "../ContainerInformacao";
 
 function Curriculo() {
   return (
@@ -11,6 +12,7 @@ function Curriculo() {
       <Foto />
       <BoxNomeEProfissao />
       <BoxContatos />
+      <ContainerInformacao />
     </View>
   );
 }

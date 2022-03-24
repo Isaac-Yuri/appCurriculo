@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
   container: {
     display: "flex",
     flexDirection: "row",
-    marginTop: 10,
+    margin: 10,
   },
   boxIcon: {
     backgroundColor: "black",
