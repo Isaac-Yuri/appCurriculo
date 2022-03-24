@@ -1,4 +1,4 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { styles } from "./styles";
 
 import Foto from "../Foto";
@@ -18,11 +18,27 @@ function Curriculo() {
       <ContainerInformacao>
         <TituloCinza>Formação</TituloCinza>
         <Linha />
+        <View style={styles.containerDescricao}>
+          <Text style={styles.tituloBold}>Ensino médio completo</Text>
+          <Text style={styles.subTitulo}>ECI Tercilio Teixeira da Cruz</Text>
+        </View>
+        <View style={styles.containerDescricao}>
+          <Text style={styles.tituloBold}>Curso De Desenvolvimento web</Text>
+          <Text style={styles.subTitulo}>GOV Paraiba</Text>
+        </View>
       </ContainerInformacao>
 
       <ContainerInformacao>
         <TituloCinza>Experiência profissional</TituloCinza>
         <Linha />
+        <View style={styles.containerDescricao}>
+          <Text style={styles.tituloBold}>Ensino médio completo</Text>
+          <Text style={styles.subTitulo}>ECI Tercilio Teixeira da Cruz</Text>
+        </View>
+        <View style={styles.containerDescricao}>
+          <Text style={styles.tituloBold}>Curso De Desenvolvimento web</Text>
+          <Text style={styles.subTitulo}>GOV Paraiba</Text>
+        </View>
       </ContainerInformacao>
     </View>
   );
