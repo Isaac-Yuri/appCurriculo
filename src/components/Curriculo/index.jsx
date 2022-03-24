@@ -5,6 +5,8 @@ import Foto from "../Foto";
 import BoxNomeEProfissao from "../BoxNomeEProfissao";
 import BoxContatos from "../BoxContatos";
 import ContainerInformacao from "../ContainerInformacao";
+import TituloCinza from "../TituloCinza";
+import Linha from "../Linha";
 
 function Curriculo() {
   return (
@@ -12,7 +14,16 @@ function Curriculo() {
       <Foto />
       <BoxNomeEProfissao />
       <BoxContatos />
-      <ContainerInformacao />
+
+      <ContainerInformacao>
+        <TituloCinza>Formação</TituloCinza>
+        <Linha />
+      </ContainerInformacao>
+
+      <ContainerInformacao>
+        <TituloCinza>Experiência profissional</TituloCinza>
+        <Linha />
+      </ContainerInformacao>
     </View>
   );
 }

@@ -1,12 +1,10 @@
 import { View, Text } from "react-native";
 import { styles } from "./style";
 
-import TituloCinza from "../TituloCinza";
-
-export default function ContainerInformacao() {
+export default function ContainerInformacao({ children }) {
   return (
     <View style={styles.container}>
-      <TituloCinza>formação</TituloCinza>
+      {children}
     </View>
   );
 }

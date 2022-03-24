@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { tamanhoDosIcones } from "./index";
+import { tamanhoDosIcones } from ".";
 
 export const styles = StyleSheet.create({
   container: {
