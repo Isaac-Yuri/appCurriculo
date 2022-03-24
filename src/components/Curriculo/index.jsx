@@ -32,14 +32,11 @@ function Curriculo() {
         <TituloCinza>Experiência profissional</TituloCinza>
         <Linha />
         <View style={styles.containerDescricao}>
-          <Text style={styles.tituloBold}>Ensino médio completo</Text>
-          <Text style={styles.subTitulo}>ECI Tercilio Teixeira da Cruz</Text>
-        </View>
-        <View style={styles.containerDescricao}>
-          <Text style={styles.tituloBold}>Curso De Desenvolvimento web</Text>
-          <Text style={styles.subTitulo}>GOV Paraiba</Text>
+          <Text style={styles.tituloBold}>Projetos pessoais</Text>
+          <Text style={styles.subTitulo}>Pode velos acessando o meu GitHub.</Text>
         </View>
       </ContainerInformacao>
+
     </View>
   );
 }

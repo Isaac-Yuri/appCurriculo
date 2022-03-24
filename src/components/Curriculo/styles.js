@@ -4,7 +4,6 @@ export const styles = StyleSheet.create({
   curriculoContainer: {
     display: "flex",
     alignItems: "center",
-    width: "94%",
   },
   tituloBold: {
     fontWeight:'bold',

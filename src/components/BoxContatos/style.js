@@ -1,5 +1,4 @@
 import { StyleSheet } from "react-native";
-import { tamanhoDosIcones } from ".";
 
 export const styles = StyleSheet.create({
   container: {
@@ -10,7 +9,7 @@ export const styles = StyleSheet.create({
   boxIcon: {
     backgroundColor: "black",
     padding: 10,
-    borderRadius: tamanhoDosIcones,
+    borderRadius: 25,
     margin: 10,
   },
 });
